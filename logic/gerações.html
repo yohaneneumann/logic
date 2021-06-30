@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+
+<script>
+function pulaLinha()
+    {
+        document.write("<br><br>");
+    }
+function mostra(frase)
+    {
+        document.write("<big>" + frase + "</big>");
+        pulaLinha()
+    }    
+
+var anoAtual = 2021
+var idadeMediaQuandoTemFilhos = 28;
+var quantidadeDeGeracoes = (anoAtual - 1500) / idadeMediaQuandoTemFilhos; 
+
+mostra("Desde 1500 até o ano atual se passaram " + Math.round(quantidadeDeGeracoes) + " gerações.")//Math.round oara arredondar o resultado
+
+</script>
